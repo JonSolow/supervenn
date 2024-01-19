@@ -187,7 +187,7 @@ def plot_binary_array(arr, ax=None, col_widths=None, row_heights=None, min_width
                 if isinstance(annotation, str):
                     annot_y = min_y*0.85
                     ha= 'left'
-                    va = 'bottom'
+                    va = 'top'
                     rotation = 90
                 else:
                     annot_y = annot_ys[col_index % len(annot_ys)]
